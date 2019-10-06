@@ -31,6 +31,6 @@ public class XpathPseudocode {
         kaya.findElement(By.xpath("//*[@class='uitk-button-text']//ancestor::nav")).click();
         Thread.sleep(1000);
          kaya.findElement(By.id("primary-header-cruise")).click();
-         kaya.quit();
+         kaya.close();
     }
 }
